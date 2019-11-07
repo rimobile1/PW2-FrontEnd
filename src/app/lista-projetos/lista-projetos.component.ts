@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'has-lista-projetos',
@@ -11,9 +12,13 @@ export class ListaProjetosComponent implements OnInit {
                 {"nome" :"Projeto 2","sala" :"Lab9","turma" :"3Q"}];
 
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit() {
+  }
+  detalhes(id : number){
+
+    this.router.navigate(['detalhe-projeto',id]);
   }
 
 }
