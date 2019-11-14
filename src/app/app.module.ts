@@ -9,6 +9,8 @@ import { DetalheProjetosComponent } from './detalhe-projetos/detalhe-projetos.co
 import { EditarProjetosComponent } from './editar-projetos/editar-projetos.component';
 
 import{HttpClientModule} from '@angular/common/http';
+import{ReactiveFormsModule} from '@angular/forms';
+
 
 @NgModule({
   declarations: [
