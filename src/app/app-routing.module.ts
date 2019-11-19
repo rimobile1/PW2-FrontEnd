@@ -9,7 +9,7 @@ const routes: Routes = [
           component :ListaProjetosComponent
         },
 
-        { path :'novo projetos',
+        { path :'novoprojeto',
           component :NovoProjetosComponent
         },
 
